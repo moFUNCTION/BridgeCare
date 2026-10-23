@@ -1,0 +1,201 @@
+{
+    "organizationId": "6a3011b70017b36d15b2",
+    "projectId": "6adaf3cd000458c04102",
+    "projectName": "Bridge Care",
+    "endpoint": "https://fra.cloud.appwrite.io/v1",
+    "settings": {
+        "services": {
+            "account": true,
+            "avatars": true,
+            "databases": true,
+            "tablesdb": true,
+            "locale": true,
+            "health": true,
+            "project": true,
+            "storage": true,
+            "teams": true,
+            "users": true,
+            "vcs": true,
+            "sites": true,
+            "functions": true,
+            "proxy": true,
+            "graphql": true,
+            "migrations": true,
+            "messaging": true,
+            "advisor": true,
+            "oauth2": true
+        },
+        "protocols": {
+            "rest": true,
+            "graphql": true,
+            "websocket": true
+        },
+        "auth": {
+            "methods": {
+                "email-password": true,
+                "magic-url": true,
+                "email-otp": true,
+                "anonymous": true,
+                "invites": true,
+                "jwt": true,
+                "phone": true,
+                "passkey": false
+            },
+            "security": {
+                "duration": 31536000,
+                "limit": null,
+                "sessionsLimit": 10,
+                "passwordHistory": null,
+                "passwordDictionary": false,
+                "personalDataCheck": false,
+                "sessionAlerts": false,
+                "mockNumbers": []
+            }
+        }
+    },
+    "functions": [
+        {
+            "$id": "send-email-otp",
+            "name": "Send Email OTP",
+            "runtime": "node-18.0",
+            "path": "functions/send-email-otp",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users",
+                "any"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "commands": "npm install",
+            "scopes": [
+                "users.read",
+                "users.write"
+            ]
+        },
+        {
+            "$id": "verify-email-otp",
+            "name": "Verify Email OTP",
+            "runtime": "node-18.0",
+            "path": "functions/verify-email-otp",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users",
+                "any"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "commands": "npm install",
+            "scopes": [
+                "users.read",
+                "users.write",
+                "sessions.write"
+            ]
+        },
+        {
+            "$id": "register-patient",
+            "name": "Register Patient",
+            "runtime": "node-18.0",
+            "path": "functions/register-patient",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users",
+                "any"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "commands": "npm install",
+            "scopes": [
+                "users.read",
+                "users.write",
+                "teams.read",
+                "teams.write",
+                "documents.read",
+                "documents.write"
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "$id": "USERS",
+            "name": "USERS",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "userId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "userName",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128
+                },
+                {
+                    "key": "email",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 256
+                },
+                {
+                    "key": "phoneNumber",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32
+                },
+                {
+                    "key": "age",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "min": 0,
+                    "max": 150
+                },
+                {
+                    "key": "country",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128
+                },
+                {
+                    "key": "role",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 64,
+                    "default": "patient"
+                }
+            ]
+        }
+    ],
+    "teams": [
+        {
+            "$id": "patients",
+            "name": "Patients"
+        }
+    ]
+}

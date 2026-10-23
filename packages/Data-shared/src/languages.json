@@ -1,0 +1,474 @@
+{
+  "af": {
+    "name": "Afrikaans",
+    "speakers": 15200000
+  },
+  "am": {
+    "name": "Amharic",
+    "speakers": 25800000
+  },
+  "sq": {
+    "name": "Albanian",
+    "speakers": 7500000
+  },
+  "ar": {
+    "name": "Arabic",
+    "speakers": 425000000
+  },
+  "hy": {
+    "name": "Armenian",
+    "speakers": 6400000
+  },
+  "az": {
+    "name": "Azerbaijani",
+    "speakers": 28000000
+  },
+  "eu": {
+    "name": "Basque",
+    "speakers": 720000
+  },
+  "be": {
+    "name": "Belarusian",
+    "speakers": 8600000
+  },
+  "bn": {
+    "name": "Bengali",
+    "speakers": 250000000
+  },
+  "bs": {
+    "name": "Bosnian",
+    "speakers": 3500000
+  },
+  "bg": {
+    "name": "Bulgarian",
+    "speakers": 9100000
+  },
+  "ca": {
+    "name": "Catalan",
+    "speakers": 11500000
+  },
+  "ceb": {
+    "name": "Cebuano",
+    "speakers": 21000000
+  },
+  "ny": {
+    "name": "Chichewa",
+    "speakers": 12000000
+  },
+  "zh": {
+    "name": "Chinese",
+    "speakers": 1026000000
+  },
+  "co": {
+    "name": "Corsican",
+    "speakers": 200000
+  },
+  "hr": {
+    "name": "Croatian",
+    "speakers": 16000000
+  },
+  "cs": {
+    "name": "Czech",
+    "speakers": 9500000
+  },
+  "da": {
+    "name": "Danish",
+    "speakers": 5600000
+  },
+  "nl": {
+    "name": "Dutch",
+    "speakers": 22000000
+  },
+  "sjn": {
+    "name": "Elvish",
+    "speakers": 1200000
+  },
+  "en": {
+    "name": "English",
+    "speakers": 765000000
+  },
+  "eo": {
+    "name": "Esperanto",
+    "speakers": 2000000
+  },
+  "et": {
+    "name": "Estonian",
+    "speakers": 1200000
+  },
+  "tl": {
+    "name": "Filipino",
+    "speakers": 25000000
+  },
+  "fo": {
+    "name": "Faroese",
+    "speakers": null
+  },
+  "fj": {
+    "name": "Fijian",
+    "speakers": 5000000
+  },
+  "fi": {
+    "name": "Finnish",
+    "speakers": 5000000
+  },
+  "fr": {
+    "name": "French",
+    "speakers": 68500000
+  },
+  "fy": {
+    "name": "Frisian",
+    "speakers": 470000
+  },
+  "gl": {
+    "name": "Galician",
+    "speakers": 2400000
+  },
+  "ka": {
+    "name": "Georgian",
+    "speakers": 4300000
+  },
+  "de": {
+    "name": "German",
+    "speakers": 111800000
+  },
+  "el": {
+    "name": "Greek",
+    "speakers": 13000000
+  },
+  "gu": {
+    "name": "Gujarati",
+    "speakers": 46600000
+  },
+  "haw": {
+    "name": "Hawaiian",
+    "speakers": 2000
+  },
+  "ht": {
+    "name": "Haitian Creole",
+    "speakers": 7700000
+  },
+  "ha": {
+    "name": "Hausa",
+    "speakers": 40000000
+  },
+  "he": {
+    "name": "Hebrew",
+    "speakers": 5300000
+  },
+  "hi": {
+    "name": "Hindi",
+    "speakers": 12500000
+  },
+  "hmn": {
+    "name": "Hmong",
+    "speakers": 4000000
+  },
+  "hu": {
+    "name": "Hungarian",
+    "speakers": 12500000
+  },
+  "is": {
+    "name": "Icelandic",
+    "speakers": 330000
+  },
+  "ig": {
+    "name": "Igbo",
+    "speakers": 18000000
+  },
+  "id": {
+    "name": "Indonesian",
+    "speakers": 23000000
+  },
+  "iu": {
+    "name": "Inuktitut",
+    "speakers": 34000
+  },
+  "iku": {
+    "name": "Inuinnaqtun",
+    "speakers": 410
+  },
+  "ga": {
+    "name": "Irish",
+    "speakers": 1000000
+  },
+  "it": {
+    "name": "Italian",
+    "speakers": 61100000
+  },
+  "ja": {
+    "name": "Japanese",
+    "speakers": 123000000
+  },
+  "jw": {
+    "name": "Javanese",
+    "speakers": 84300000
+  },
+  "kk": {
+    "name": "qazaq tili",
+    "speakers": 11000000
+  },
+  "kn": {
+    "name": "Kannada",
+    "speakers": 46700000
+  },
+  "km": {
+    "name": "Khmer",
+    "speakers": 16000000
+  },
+  "ko": {
+    "name": "Korean",
+    "speakers": 66400000
+  },
+  "kok": {
+    "name": "Konkani",
+    "speakers": 7400000
+  },
+  "ky": {
+    "name": "Кyrgyz",
+    "speakers": 4300000
+  },
+  "ku": {
+    "name": "Kurdish",
+    "speakers": 30000000
+  },
+  "ckb": {
+    "name": "Central Kurdish",
+    "speakers": 7250000
+  },
+  "sdh": {
+    "name": "Southern Kurdish",
+    "speakers": 5390000
+  },
+  "lo": {
+    "name": "Lao",
+    "speakers": 20000000
+  },
+  "lv": {
+    "name": "Latvian",
+    "speakers": 1700000
+  },
+  "lt": {
+    "name": "Lithuanian",
+    "speakers": 3000000
+  },
+  "lb": {
+    "name": "Luxembourgish",
+    "speakers": 390000
+  },
+  "mk": {
+    "name": "Macedonian",
+    "speakers": 2500000
+  },
+  "mg": {
+    "name": "Malagasy",
+    "speakers": 18000000
+  },
+  "ms": {
+    "name": "Malay",
+    "speakers": 59400000
+  },
+  "ml": {
+    "name": "Malayalam",
+    "speakers": 38000000
+  },
+  "mt": {
+    "name": "Maltese",
+    "speakers": 520000
+  },
+  "mr": {
+    "name": "Marathi",
+    "speakers": 71800000
+  },
+  "mn": {
+    "name": "Mongolian",
+    "speakers": 5700000
+  },
+  "mi": {
+    "name": "Māori",
+    "speakers": 60000
+  },
+  "my": {
+    "name": "Burmese",
+    "speakers": 42900000
+  },
+  "ne": {
+    "name": "Nepali",
+    "speakers": 14000000
+  },
+  "no": {
+    "name": "Norwegian",
+    "speakers": 5000000
+  },
+  "pap": {
+    "name": "Papiamento",
+    "speakers": 260000
+  },
+  "fa": {
+    "name": "Persian",
+    "speakers": 56600000
+  },
+  "pl": {
+    "name": "Polish",
+    "speakers": 39000000
+  },
+  "pt": {
+    "name": "Portuguese",
+    "speakers": 217000000
+  },
+  "pa": {
+    "name": "Punjabi",
+    "speakers": 29500000
+  },
+  "ps": {
+    "name": "Pashto",
+    "speakers": 60000000
+  },
+  "otq": {
+    "name": "Hñohño",
+    "speakers": 260000
+  },
+  "ro": {
+    "name": "Romanian",
+    "speakers": 23000000
+  },
+  "ru": {
+    "name": "Russian",
+    "speakers": 272000000
+  },
+  "sm": {
+    "name": "Samoan",
+    "speakers": 510000
+  },
+  "gd": {
+    "name": "Scottish Gaelic",
+    "speakers": 87000
+  },
+  "sr": {
+    "name": "Serbian",
+    "speakers": 16000000
+  },
+  "sr-LA": {
+    "name": "Serbian",
+    "speakers": 16000000
+  },
+  "sd": {
+    "name": "Sindhi",
+    "speakers": 75000000
+  },
+  "si": {
+    "name": "Sinhalese",
+    "speakers": 16000000
+  },
+  "sk": {
+    "name": "Slovak",
+    "speakers": 5000000
+  },
+  "sl": {
+    "name": "Slovenian",
+    "speakers": 2500000
+  },
+  "sn": {
+    "name": "Slovenian",
+    "speakers": 2500000
+  },
+  "st": {
+    "name": "Sotho",
+    "speakers": 5600000
+  },
+  "so": {
+    "name": "Somali",
+    "speakers": 14000000
+  },
+  "es": {
+    "name": "Spanish",
+    "speakers": 466000000
+  },
+  "su": {
+    "name": "Sundanese",
+    "speakers": 38000000
+  },
+  "sw": {
+    "name": "Swahili",
+    "speakers": 140000000
+  },
+  "sv": {
+    "name": "Swedish",
+    "speakers": 8300000
+  },
+  "ty": {
+    "name": "Tahitian",
+    "speakers": 68000
+  },
+  "ta": {
+    "name": "Tamil",
+    "speakers": 76800000
+  },
+  "tg": {
+    "name": "Tajik",
+    "speakers": 8400000
+  },
+  "te": {
+    "name": "Telugu",
+    "speakers": 79000000
+  },
+  "th": {
+    "name": "Thai",
+    "speakers": 60000000
+  },
+  "bo": {
+    "name": "Tibetan",
+    "speakers": 1200000
+  },
+  "to": {
+    "name": "Tongan",
+    "speakers": 96000
+  },
+  "tr": {
+    "name": "Turkish",
+    "speakers": 50700000
+  },
+  "uk": {
+    "name": "Ukrainian",
+    "speakers": 36000000
+  },
+  "ur": {
+    "name": "Urdu",
+    "speakers": 63400000
+  },
+  "uz": {
+    "name": "Uzbek",
+    "speakers": 27000000
+  },
+  "vi": {
+    "name": "Vietnamese",
+    "speakers": 67800000
+  },
+  "cy": {
+    "name": "Welsh",
+    "speakers": 740000
+  },
+  "xh": {
+    "name": "Xhosa",
+    "speakers": 8200000
+  },
+  "yi": {
+    "name": "Yiddish",
+    "speakers": 1500000
+  },
+  "yo": {
+    "name": "Yoruba",
+    "speakers": 21000000
+  },
+  "yua": {
+    "name": "Yucatec Maya",
+    "speakers": 790000
+  },
+  "yue": {
+    "name": "Yueh",
+    "speakers": 60000000
+  },
+  "zu": {
+    "name": "Zulu",
+    "speakers": 26000000
+  }
+}

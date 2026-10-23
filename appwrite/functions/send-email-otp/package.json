@@ -1,0 +1,10 @@
+{
+  "name": "send-email-otp",
+  "version": "1.0.0",
+  "description": "Generates and dispatches a 6-digit OTP code for email verification",
+  "main": "src/main.js",
+  "type": "module",
+  "dependencies": {
+    "node-appwrite": "^14.1.0"
+  }
+}

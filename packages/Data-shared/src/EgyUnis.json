@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "cairo-university",
+    "name": "جامعة القاهرة",
+    "english_name": "Cairo University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Giza",
+    "city": "Giza",
+    "campus_location": "شارع الجامعة، الجيزة",
+    "coordinates": {
+      "lat": 30.0263,
+      "lng": 31.2118
+    },
+    "established_year": 1908,
+    "email_domain": "cu.edu.eg",
+    "website": "https://cu.edu.eg",
+    "description": "ثاني أقدم جامعة في مصر وواحدة من أعرق وأكبر الجامعات في الوطن العربي والشرق الأوسط، تضم نخبة من كليات الهندسة والطب والعلوم والعلوم السياسية والإنسانيات."
+  },
+  {
+    "id": "ain-shams-university",
+    "name": "جامعة عين شمس",
+    "english_name": "Ain Shams University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Cairo",
+    "city": "Cairo",
+    "campus_location": "العباسية، القاهرة",
+    "coordinates": {
+      "lat": 30.0771,
+      "lng": 31.2852
+    },
+    "established_year": 1950,
+    "email_domain": "asu.edu.eg",
+    "website": "https://www.asu.edu.eg",
+    "description": "ثالث أقدم جامعة مصرية حكومية غير دينية، تضم عدداً كبيراً من الكليات والمعاهد الرائدة وتشتهر بقوة كليات الطب والهندسة والتجارة والألسن."
+  },
+  {
+    "id": "alexandria-university",
+    "name": "جامعة الإسكندرية",
+    "english_name": "Alexandria University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Alexandria",
+    "city": "Alexandria",
+    "campus_location": "الشاطبي، الإسكندرية",
+    "coordinates": {
+      "lat": 31.2069,
+      "lng": 29.9192
+    },
+    "established_year": 1938,
+    "email_domain": "alexu.edu.eg",
+    "website": "https://www.alexu.edu.eg",
+    "description": "كبرى جامعات الساحل الشمالي المصري وثاني أقدم الجامعات الحديثة، تتمتع بمكانة بحثية متميزة وتضم تخصصات طبية وهندسية وبحرية واسعة."
+  },
+  {
+    "id": "mansoura-university",
+    "name": "جامعة المنصورة",
+    "english_name": "Mansoura University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Dakahlia",
+    "city": "Mansoura",
+    "campus_location": "شارع الجمهورية، المنصورة",
+    "coordinates": {
+      "lat": 31.0428,
+      "lng": 31.3553
+    },
+    "established_year": 1972,
+    "email_domain": "mans.edu.eg",
+    "website": "https://www.mans.edu.eg",
+    "description": "من أبرز الجامعات الإقليمية والمصنفة عالمياً، وتعرف بريادتها الفائقة في مجال المراكز الطبية المتخصصة كزراعة الكلى وجراحة الجهاز الهضمي والطب عموماً."
+  },
+  {
+    "id": "al-azhar-university",
+    "name": "جامعة الأزهر",
+    "english_name": "Al-Azhar University",
+    "type": "Public",
+    "category": "حكومية ذات طبيعة خاصة",
+    "governorate": "Cairo",
+    "city": "Cairo",
+    "campus_location": "مدينة نصر، القاهرة (وفروع بالمحافظات)",
+    "coordinates": {
+      "lat": 30.0571,
+      "lng": 31.3197
+    },
+    "established_year": 970,
+    "email_domain": "azhar.edu.eg",
+    "website": "http://www.azhar.edu.eg",
+    "description": "أقدم مؤسسة تعليمية إسلامية مستمرة في العالم، وتضم كليات للعلوم الشرعية والعربية إلى جانب كليات عملية مثل الطب والهندسة والعلوم للذكور والإناث."
+  },
+  {
+    "id": "assuit-university",
+    "name": "جامعة أسيوط",
+    "english_name": "Assiut University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Assiut",
+    "city": "Assiut",
+    "campus_location": "مدينة أسيوط",
+    "coordinates": {
+      "lat": 27.1895,
+      "lng": 31.1706
+    },
+    "established_year": 1957,
+    "email_domain": "aun.edu.eg",
+    "website": "http://www.aun.edu.eg",
+    "description": "أول جامعة تم إنشاؤها في صعيد مصر، وتعد المركز الأكاديمي والبحثي والطبي المحوري لمحافظات الصعيد."
+  },
+  {
+    "id": "helwan-university",
+    "name": "جامعة حلوان",
+    "english_name": "Helwan University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Cairo",
+    "city": "Helwan",
+    "campus_location": "عين حلوان، القاهرة",
+    "coordinates": {
+      "lat": 29.8669,
+      "lng": 31.3194
+    },
+    "established_year": 1975,
+    "email_domain": "helwan.edu.eg",
+    "website": "http://www.helwan.edu.eg",
+    "description": "جامعة رائدة بتفردها في كليات الفنون الجميلة، التطبيقية، التربية الفنية والموسيقية، والتربية الرياضية، إلى جانب كلياتها الهندسية والطبية."
+  },
+  {
+    "id": "zagazig-university",
+    "name": "جامعة الزقازيق",
+    "english_name": "Zagazig University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Sharqia",
+    "city": "Zagazig",
+    "campus_location": "الزقازيق، الشرقية",
+    "coordinates": {
+      "lat": 30.5877,
+      "lng": 31.4839
+    },
+    "established_year": 1974,
+    "email_domain": "zu.edu.eg",
+    "website": "http://www.zu.edu.eg",
+    "description": "من الجامعات الحكومية الكبرى بمنطقة شرق الدلتا، وتضم قاعدة طلابية وبحثية ضخمة في مختلف التخصصات الهندسية والطبية والزراعية."
+  },
+  {
+    "id": "tanta-university",
+    "name": "جامعة طنطا",
+    "english_name": "Tanta University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Gharbia",
+    "city": "Tanta",
+    "campus_location": "طنطا، الغربية",
+    "coordinates": {
+      "lat": 30.7938,
+      "lng": 31.0004
+    },
+    "established_year": 1972,
+    "email_domain": "tanta.edu.eg",
+    "website": "https://tanta.edu.eg",
+    "description": "تتوسط محافظات الدلتا وتوفر تعليماً جامعياً متنوعاً يخدم قطاعاً سكانياً عريضاً في وسط الدلتا."
+  },
+  {
+    "id": "suez-canal-university",
+    "name": "جامعة قناة السويس",
+    "english_name": "Suez Canal University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Ismailia",
+    "city": "Ismailia",
+    "campus_location": "الكيلو 4.5، الإسماعيلية",
+    "coordinates": {
+      "lat": 30.6214,
+      "lng": 32.2697
+    },
+    "established_year": 1976,
+    "email_domain": "suez.edu.eg",
+    "website": "http://scuegypt.edu.eg",
+    "description": "تخدم منطقة القناة وسيناء وتتميز بكلياتها الموجهة لخدمة وتنمية البيئة والملاحة والطب البيطري والعلوم الهندسية والطبية."
+  },
+  {
+    "id": "benha-university",
+    "name": "جامعة بنها",
+    "english_name": "Benha University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Qalyubia",
+    "city": "Benha",
+    "campus_location": "بنها / شبرا / مشتهر",
+    "coordinates": {
+      "lat": 30.466,
+      "lng": 31.1853
+    },
+    "established_year": 2005,
+    "email_domain": "bu.edu.eg",
+    "website": "https://bu.edu.eg",
+    "description": "جامعة حكومية تضم كليات متفرقة جغرافياً في محافظة القليوبية والقاهرة تشمل كلية هندسة شبرا والطب البشري والطب البيطري."
+  },
+  {
+    "id": "menoufia-university",
+    "name": "جامعة المنوفية",
+    "english_name": "Menoufia University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Menoufia",
+    "city": "Shibin El Kom",
+    "campus_location": "شبين الكوم، المنوفية",
+    "coordinates": {
+      "lat": 30.5592,
+      "lng": 31.0118
+    },
+    "established_year": 1976,
+    "email_domain": "menofia.edu.eg",
+    "website": "http://mu.menofia.edu.eg",
+    "description": "جامعة رائدة في وسط الدلتا، وتشتهر بتخصصات الحاسبات وتكنولوجيا المعلومات وكلية الهندسة الإلكترونية بمنوف."
+  },
+  {
+    "id": "fayoum-university",
+    "name": "جامعة الفيوم",
+    "english_name": "Fayoum University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Fayoum",
+    "city": "Fayoum",
+    "campus_location": "مدينة الفيوم",
+    "coordinates": {
+      "lat": 29.3197,
+      "lng": 30.8357
+    },
+    "established_year": 2005,
+    "email_domain": "fayoum.edu.eg",
+    "website": "http://www.fayoum.edu.eg",
+    "description": "جامعة تخدم إقليم شمال الصعيد، وتتميز بتخصصات السياحة والفنادق والآثار بالإضافة إلى الكليات الطبية والهندسية."
+  },
+  {
+    "id": "beni-suef-university",
+    "name": "جامعة بني سويف",
+    "english_name": "Beni-Suef University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Beni Suef",
+    "city": "Beni Suef",
+    "campus_location": "شرق وغرب النيل، بني سويف",
+    "coordinates": {
+      "lat": 29.0744,
+      "lng": 31.0978
+    },
+    "established_year": 2005,
+    "email_domain": "bsu.edu.eg",
+    "website": "http://www.bsu.edu.eg",
+    "description": "تضم عدداً كبيراً من الكليات والمعاهد البحثية الفريدة مثل كلية الدراسات المتقدمة للنانو تكنولوجي وعلوم الملاحة وتكنولوجيا الفضاء."
+  },
+  {
+    "id": "minia-university",
+    "name": "جامعة المنيا",
+    "english_name": "Minia University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Minya",
+    "city": "Minya",
+    "campus_location": "مدينة المنيا",
+    "coordinates": {
+      "lat": 28.1189,
+      "lng": 30.7428
+    },
+    "established_year": 1976,
+    "email_domain": "minia.edu.eg",
+    "website": "https://www.minia.edu.eg",
+    "description": "مركز التعليم العالي الرئيسي لمحافظة المنيا، وتضم حرماً جامعياً موحداً يضم معظم كليات الهندسة والطب والفنون والآداب."
+  },
+  {
+    "id": "sohag-university",
+    "name": "جامعة سوهاج",
+    "english_name": "Sohag University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Sohag",
+    "city": "Sohag",
+    "campus_location": "مدينة سوهاج الجديدة / المقر القديم",
+    "coordinates": {
+      "lat": 26.5569,
+      "lng": 31.6948
+    },
+    "established_year": 2006,
+    "email_domain": "sohag-univ.edu.eg",
+    "website": "http://www.sohag-univ.edu.eg",
+    "description": "تتوزع بين المقر القديم والمقر الجديد بمدينة الكوامل، وتقدم مجموعة برامج واسعة تخدم إقليم جنوب الوادي."
+  },
+  {
+    "id": "south-valley-university",
+    "name": "جامعة جنوب الوادي",
+    "english_name": "South Valley University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Qena",
+    "city": "Qena",
+    "campus_location": "قنا (وفروع سابقة انفصلت كجامعات مستقلة)",
+    "coordinates": {
+      "lat": 26.1952,
+      "lng": 32.7431
+    },
+    "established_year": 1995,
+    "email_domain": "svu.edu.eg",
+    "website": "http://www.svu.edu.eg",
+    "description": "تغطي محافظات الصعيد الجنوبي وتلعب دوراً تنموياً وثقافياً محورياً في محافظة قنا ومحيطها."
+  },
+  {
+    "id": "aswan-university",
+    "name": "جامعة أسوان",
+    "english_name": "Aswan University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Aswan",
+    "city": "Aswan",
+    "campus_location": "صحارى / أسوان الجديدة",
+    "coordinates": {
+      "lat": 23.9965,
+      "lng": 32.8601
+    },
+    "established_year": 2012,
+    "email_domain": "aswu.edu.eg",
+    "website": "https://aswu.edu.eg",
+    "description": "أقصى الجامعات المصرية جنوباً وتتميز بكليات هندسة الطاقة، مصايد الأسماك، ومعهد البحوث والدراسات الإفريقية."
+  },
+  {
+    "id": "kafr-elsheikh-university",
+    "name": "جامعة كفر الشيخ",
+    "english_name": "Kafrelsheikh University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Kafr El Sheikh",
+    "city": "Kafr El Sheikh",
+    "campus_location": "كفر الشيخ",
+    "coordinates": {
+      "lat": 31.0967,
+      "lng": 30.9472
+    },
+    "established_year": 2006,
+    "email_domain": "kfs.edu.eg",
+    "website": "http://www.kfs.edu.eg",
+    "description": "جامعة ذات تصميم بيئي ومعماري حديث، متقدمة في التصنيفات الخضراء والبحوث الطبية والبيطرية والنانوتكنولوجي والذكاء الاصطناعي."
+  },
+  {
+    "id": "port-said-university",
+    "name": "جامعة بورسعيد",
+    "english_name": "Port Said University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Port Said",
+    "city": "Port Said",
+    "campus_location": "بورفؤاد / بورسعيد",
+    "coordinates": {
+      "lat": 31.2483,
+      "lng": 32.3168
+    },
+    "established_year": 2010,
+    "email_domain": "psu.edu.eg",
+    "website": "http://www.psu.edu.eg",
+    "description": "تقع في موقع ساحلي استراتيجي وتضم كليات هندسية عريقة في بورفؤاد وتخصصات بحرية ولوجستية وطبية."
+  },
+  {
+    "id": "suez-university",
+    "name": "جامعة السويس",
+    "english_name": "Suez University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Suez",
+    "city": "Suez",
+    "campus_location": "حي السلام، السويس",
+    "coordinates": {
+      "lat": 29.987,
+      "lng": 32.5021
+    },
+    "established_year": 2012,
+    "email_domain": "suezuni.edu.eg",
+    "website": "http://suez.edu.eg",
+    "description": "تحتضن كلية هندسة البترول والتعدين الشهيرة والتاريخية، إلى جانب كليات العلوم والتكنولوجيا والطب."
+  },
+  {
+    "id": "damietta-university",
+    "name": "جامعة دمياط",
+    "english_name": "Damietta University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Damietta",
+    "city": "New Damietta",
+    "campus_location": "دمياط الجديدة",
+    "coordinates": {
+      "lat": 31.4367,
+      "lng": 31.6622
+    },
+    "established_year": 2012,
+    "email_domain": "du.edu.eg",
+    "website": "http://www.du.edu.eg",
+    "description": "تقع بمدينة دمياط الجديدة وتقدم تخصصات هندسية وتطبيقية وفنون وتجارة تدعم الأنشطة الاقتصادية الساحلية والصناعية بالمحافظة."
+  },
+  {
+    "id": "damanhour-university",
+    "name": "جامعة دمنهور",
+    "english_name": "Damanhour University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Beheira",
+    "city": "Damanhour",
+    "campus_location": "دمنهور، البحيرة",
+    "coordinates": {
+      "lat": 31.0364,
+      "lng": 30.4699
+    },
+    "established_year": 2010,
+    "email_domain": "dmu.edu.eg",
+    "website": "http://www.damanhour.edu.eg",
+    "description": "الجامعة الحكومية الحاضنة لطلاب محافظة البحيرة، وتضم كليات الصيدلة، العلوم، التجارة، والزراعة."
+  },
+  {
+    "id": "sadat-city-university",
+    "name": "جامعة مدينة السادات",
+    "english_name": "University of Sadat City",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Menoufia",
+    "city": "Sadat City",
+    "campus_location": "مدينة السادات",
+    "coordinates": {
+      "lat": 30.3792,
+      "lng": 30.5186
+    },
+    "established_year": 2013,
+    "email_domain": "usc.edu.eg",
+    "website": "http://usc.edu.eg",
+    "description": "تتميز بتركيزها على أبحاث الهندسة الوراثية والتكنولوجيا الحيوية والطب البيطري بالقرب من المناطق الصناعية."
+  },
+  {
+    "id": "luxor-university",
+    "name": "جامعة الأقصر",
+    "english_name": "Luxor University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Luxor",
+    "city": "Luxor",
+    "campus_location": "العوامية / طيبة الجديدة، الأقصر",
+    "coordinates": {
+      "lat": 25.6872,
+      "lng": 32.6396
+    },
+    "established_year": 2019,
+    "email_domain": "luxor.edu.eg",
+    "website": "https://luxor.edu.eg",
+    "description": "تشتهر عالمياً بكليتي الفنون الجميلة والآثار، وتتوسع حالياً في المجالات التكنولوجية والطبية بمدينة طيبة الجديدة."
+  },
+  {
+    "id": "matrouh-university",
+    "name": "جامعة مطروح",
+    "english_name": "Matrouh University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "Matrouh",
+    "city": "Mersa Matruh",
+    "campus_location": "مرسى مطروح",
+    "coordinates": {
+      "lat": 31.3342,
+      "lng": 27.2473
+    },
+    "established_year": 2018,
+    "email_domain": "mau.edu.eg",
+    "website": "http://mau.edu.eg",
+    "description": "تخدم الساحل الغربي والظهير الصحراوي، مع اهتمام خاص بتخصصات الزراعة الصحراوية، الطب البيطري، والسياحة."
+  },
+  {
+    "id": "new-valley-university",
+    "name": "جامعة الوادي الجديد",
+    "english_name": "New Valley University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "New Valley",
+    "city": "Kharga",
+    "campus_location": "الخارجة، الوادي الجديد",
+    "coordinates": {
+      "lat": 25.4419,
+      "lng": 30.5583
+    },
+    "established_year": 2018,
+    "email_domain": "nvu.edu.eg",
+    "website": "http://nvu.edu.eg",
+    "description": "تخدم كبرى محافظات مصر مساحةً وتستهدف تخصصات التنمية المستدامة واستصلاح الأراضي والبيئات الواحاتية."
+  },
+  {
+    "id": "arish-university",
+    "name": "جامعة العريش",
+    "english_name": "Arish University",
+    "type": "Public",
+    "category": "حكومية",
+    "governorate": "North Sinai",
+    "city": "Arish",
+    "campus_location": "ضاحية السلام، العريش",
+    "coordinates": {
+      "lat": 31.1325,
+      "lng": 33.8033
+    },
+    "established_year": 2016,
+    "email_domain": "aru.edu.eg",
+    "website": "http://aru.edu.eg",
+    "description": "صرح التعليم العالي الحكومي الرئيسي في شمال سيناء، وتهتم بالعلوم الزراعية والبيئية والاستزراع المائي والعلوم الإنسانية والطب."
+  },
+  {
+    "id": "auc",
+    "name": "الجامعة الأمريكية بالقاهرة",
+    "english_name": "The American University in Cairo",
+    "type": "Private",
+    "category": "خاصة / دولية غير هادفة للربح",
+    "governorate": "Cairo",
+    "city": "New Cairo",
+    "campus_location": "شارع التسعين، التجمع الخامس، القاهرة الجديدة",
+    "coordinates": {
+      "lat": 30.0195,
+      "lng": 31.4996
+    },
+    "established_year": 1919,
+    "email_domain": "aucegypt.edu",
+    "website": "https://www.aucegypt.edu",
+    "description": "أقدم وأشهر مؤسسة تعليمية أمريكية في مصر، تعتمد نظام الفنون الحرة (Liberal Arts) ومعتمدة دولياً من كبرى جهات الاعتماد الأمريكية والعالمية."
+  },
+  {
+    "id": "guc",
+    "name": "الجامعة الألمانية بالقاهرة",
+    "english_name": "German University in Cairo",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Cairo",
+    "city": "New Cairo",
+    "campus_location": "التجمع الخامس، القاهرة الجديدة",
+    "coordinates": {
+      "lat": 29.9869,
+      "lng": 31.4414
+    },
+    "established_year": 2002,
+    "email_domain": "guc.edu.eg",
+    "website": "https://www.guc.edu.eg",
+    "description": "كبرى الجامعات الألمانية خارج حدود ألمانيا، وتشتهر بمعاييرها الأكاديمية الصارمة وقوة تخصصات الهندسة وإدارة الأعمال والصيدلة والتصميم."
+  },
+  {
+    "id": "bue",
+    "name": "الجامعة البريطانية في مصر",
+    "english_name": "The British University in Egypt",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Cairo",
+    "city": "El Shorouk",
+    "campus_location": "مدينة الشروق، طريق القاهرة - السويس",
+    "coordinates": {
+      "lat": 30.1194,
+      "lng": 31.6062
+    },
+    "established_year": 2005,
+    "email_domain": "bue.edu.eg",
+    "website": "https://www.bue.edu.eg",
+    "description": "تقدم برامج بكالوريوس بنظام التعليم العالي البريطاني بالتعاون مع جامعات بريطانية مرموقة، مما يمنح خريجيها شهادات مزدوجة."
+  },
+  {
+    "id": "must",
+    "name": "جامعة مصر للعلوم والتكنولوجيا",
+    "english_name": "Misr University for Science and Technology",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Giza",
+    "city": "6th of October City",
+    "campus_location": "الحي المتميز، مدينة 6 أكتوبر",
+    "coordinates": {
+      "lat": 29.9818,
+      "lng": 30.9575
+    },
+    "established_year": 1996,
+    "email_domain": "must.edu.eg",
+    "website": "https://www.must.edu.eg",
+    "description": "من أقدم وأشهر الجامعات الخاصة في مصر، وتضم مجمعاً تعليمياً وطبياً ضخماً يشمل مستشفى سعاد كفافي الجامعي."
+  },
+  {
+    "id": "msa",
+    "name": "جامعة أكتوبر للعلوم الحديثة والآداب",
+    "english_name": "October University for Modern Sciences and Arts",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Giza",
+    "city": "6th of October City",
+    "campus_location": "محور 26 يوليو، مدينة 6 أكتوبر",
+    "coordinates": {
+      "lat": 29.9602,
+      "lng": 30.9482
+    },
+    "established_year": 1996,
+    "email_domain": "msa.edu.eg",
+    "website": "https://msa.edu.eg",
+    "description": "أول جامعة خاصة تطبق نظام التعليم والتحقق البريطاني مع جامعتي غرينتش وبيدفوردشاير، وتتميز بالحياة الطلابية النشطة."
+  },
+  {
+    "id": "o6u",
+    "name": "جامعة 6 أكتوبر",
+    "english_name": "October 6 University",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Giza",
+    "city": "6th of October City",
+    "campus_location": "المحور المركزي، مدينة 6 أكتوبر",
+    "coordinates": {
+      "lat": 29.9749,
+      "lng": 30.9416
+    },
+    "established_year": 1996,
+    "email_domain": "o6u.edu.eg",
+    "website": "https://o6u.edu.eg",
+    "description": "أول جامعة خاصة أنشئت في مصر بموجب قرار جمهوري، وتضم كليات طبية وهندسية ونظرية ومستشفى جامعياً كبيراً."
+  },
+  {
+    "id": "miu",
+    "name": "جامعة مصر الدولية",
+    "english_name": "Misr International University",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Qalyubia",
+    "city": "Obour City",
+    "campus_location": "الكيلو 28 طريق مصر - الإسماعيلية الصحراوي",
+    "coordinates": {
+      "lat": 30.1673,
+      "lng": 31.4913
+    },
+    "established_year": 1996,
+    "email_domain": "miuegypt.edu.eg",
+    "website": "https://www.miuegypt.edu.eg",
+    "description": "تتميز ببيئة أكاديمية متطورة وكليات ذات حضور بارز في طب الأسنان، الصيدلة، الألسن، وعلوم الحاسب."
+  },
+  {
+    "id": "fue",
+    "name": "جامعة المستقبل في مصر",
+    "english_name": "Future University in Egypt",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Cairo",
+    "city": "New Cairo",
+    "campus_location": "شارع التسعين، التجمع الخامس، القاهرة الجديدة",
+    "coordinates": {
+      "lat": 30.0298,
+      "lng": 31.4886
+    },
+    "established_year": 2006,
+    "email_domain": "fue.edu.eg",
+    "website": "https://www.fue.edu.eg",
+    "description": "تحتل مراتب متقدمة في التصنيفات العالمية للجامعات الخاصة، وتشتهر بكليات الصيدلة، طب الأسنان، والحاسبات."
+  },
+  {
+    "id": "nile-university",
+    "name": "جامعة النيل الأهلية",
+    "english_name": "Nile University",
+    "type": "National",
+    "category": "أهلية غير هادفة للربح",
+    "governorate": "Giza",
+    "city": "Sheikh Zayed",
+    "campus_location": "محور 26 يوليو، الشيخ زايد",
+    "coordinates": {
+      "lat": 30.0135,
+      "lng": 30.9856
+    },
+    "established_year": 2006,
+    "email_domain": "nu.edu.eg",
+    "website": "https://www.nu.edu.eg",
+    "description": "أول جامعة بحثية تكنولوجية أهلية في مصر، تركز بقوة على ريادة الأعمال، هندسة البرمجيات، والذكاء الاصطناعي."
+  },
+  {
+    "id": "newgiza-university",
+    "name": "جامعة الجيزة الجديدة",
+    "english_name": "Newgiza University",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Giza",
+    "city": "6th of October City",
+    "campus_location": "طريق القاهرة - الإسكندرية الصحراوي، كم 22",
+    "coordinates": {
+      "lat": 30.0163,
+      "lng": 31.0664
+    },
+    "established_year": 2016,
+    "email_domain": "ngu.edu.eg",
+    "website": "https://ngu.edu.eg",
+    "description": "جامعة متميزة بشراكات أكاديمية عالمية مباشرة مع كلية لندن الجامعية (UCL) وكلية كينجز لندن (King's College London)."
+  },
+  {
+    "id": "ejust",
+    "name": "الجامعة المصرية اليابانية للعلوم والتكنولوجيا",
+    "english_name": "Egypt-Japan University of Science and Technology",
+    "type": "National",
+    "category": "أهلية / ذات طبيعة دولية خاصة",
+    "governorate": "Alexandria",
+    "city": "New Borg El Arab",
+    "campus_location": "مدينة برج العرب الجديدة، الإسكندرية",
+    "coordinates": {
+      "lat": 30.9167,
+      "lng": 29.5852
+    },
+    "established_year": 2010,
+    "email_domain": "ejust.edu.eg",
+    "website": "https://ejust.edu.eg",
+    "description": "تأسست بالشراكة بين الحكومتين المصرية واليابانية، وتعتمد معايير التعليم الياباني مع التركيز على المعامل البحثية والابتكار التكنولوجي."
+  },
+  {
+    "id": "zewail-city",
+    "name": "مدينة زويل للعلوم والتكنولوجيا",
+    "english_name": "University of Science and Technology at Zewail City",
+    "type": "National",
+    "category": "أهلية بحثية",
+    "governorate": "Giza",
+    "city": "6th of October City",
+    "campus_location": "حدائق أكتوبر، مدينة 6 أكتوبر",
+    "coordinates": {
+      "lat": 29.9079,
+      "lng": 31.0189
+    },
+    "established_year": 2011,
+    "email_domain": "zewailcity.edu.eg",
+    "website": "https://www.zewailcity.edu.eg",
+    "description": "مشروع مصر القومي للنهضة العلمية أسسها العالم الراحل د. أحمد زويل، وتركز على برامج البكالوريوس المتقدمة في هندسة النانو، الفضاء، والطب الحيوي."
+  },
+  {
+    "id": "aastmt",
+    "name": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري",
+    "english_name": "Arab Academy for Science, Technology and Maritime Transport",
+    "type": "Regional / Non-Profit",
+    "category": "منظمة إقليمية / أهلية",
+    "governorate": "Alexandria",
+    "city": "Alexandria",
+    "campus_location": "أبو قير، الإسكندرية (وفروع بالقاهرة، أسوان، والعلمين)",
+    "coordinates": {
+      "lat": 31.3142,
+      "lng": 30.0645
+    },
+    "established_year": 1972,
+    "email_domain": "aast.edu",
+    "website": "https://www.aast.edu",
+    "description": "مؤسسة تابعة لجامعة الدول العربية تمنح درجات البكالوريوس المعتمدة وتشتهر بالنقل البحري واللوجستيات والهندسة وعلوم الحاسب."
+  },
+  {
+    "id": "badr-university-cairo",
+    "name": "جامعة بدر بالقاهرة",
+    "english_name": "Badr University in Cairo",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Cairo",
+    "city": "Badr City",
+    "campus_location": "طريق القاهرة - السويس، مدينة بدر",
+    "coordinates": {
+      "lat": 30.1384,
+      "lng": 31.7371
+    },
+    "established_year": 2014,
+    "email_domain": "buc.edu.eg",
+    "website": "https://buc.edu.eg",
+    "description": "واحدة من أكبر الجامعات الخاصة من حيث عدد الكليات والتنوع في العلوم الطبية، الهندسية، الفنون التطبيقية، واللغات."
+  },
+  {
+    "id": "galala-university",
+    "name": "جامعة الجلالة",
+    "english_name": "Galala University",
+    "type": "National",
+    "category": "أهلية دولية",
+    "governorate": "Suez",
+    "city": "Galala City",
+    "campus_location": "هضبة الجلالة، العين السخنة",
+    "coordinates": {
+      "lat": 29.4172,
+      "lng": 32.4045
+    },
+    "established_year": 2020,
+    "email_domain": "gu.edu.eg",
+    "website": "https://www.gu.edu.eg",
+    "description": "جامعة أهلية ذكية من الجيل الرابع تقع في منتجع الجلالة السياحي، وترتبط باتفاقيات درجات مزدوجة مع جامعة ولاية أريزونا (ASU)."
+  },
+  {
+    "id": "alamein-international-university",
+    "name": "جامعة العلمين الدولية",
+    "english_name": "Alamein International University",
+    "type": "National",
+    "category": "أهلية دولية",
+    "governorate": "Matrouh",
+    "city": "New Alamein",
+    "campus_location": "مدينة العلمين الجديدة",
+    "coordinates": {
+      "lat": 30.8425,
+      "lng": 28.9388
+    },
+    "established_year": 2020,
+    "email_domain": "aiu.edu.eg",
+    "website": "https://aiu.edu.eg",
+    "description": "جامعة أهلية رائدة بالساحل الشمالي تعتمد على المعايير العالمية وبرامج التكنولوجيا والذكاء الاصطناعي والتصميم الرقمي."
+  },
+  {
+    "id": "king-salman-international-university",
+    "name": "جامعة الملك سلمان الدولية",
+    "english_name": "King Salman International University",
+    "type": "National",
+    "category": "أهلية دولية",
+    "governorate": "South Sinai",
+    "city": "Ras Sedr / Sharm El Sheikh / El Tor",
+    "campus_location": "شرم الشيخ، رأس سدر، والطور",
+    "coordinates": {
+      "lat": 27.9158,
+      "lng": 34.3299
+    },
+    "established_year": 2020,
+    "email_domain": "ksiu.edu.eg",
+    "website": "https://ksiu.edu.eg",
+    "description": "تتوزع عبر 3 فروع في محافظة جنوب سيناء وتقدم برامج متخصصة بالسياحة والضيافة والزراعات الصحراوية والهندسة والطب."
+  },
+  {
+    "id": "new-mansoura-university",
+    "name": "جامعة المنصورة الجديدة",
+    "english_name": "New Mansoura University",
+    "type": "National",
+    "category": "أهلية دولية",
+    "governorate": "Dakahlia",
+    "city": "New Mansoura",
+    "campus_location": "مدينة المنصورة الجديدة، الطريق الساحلي الدولي",
+    "coordinates": {
+      "lat": 31.4889,
+      "lng": 31.5412
+    },
+    "established_year": 2020,
+    "email_domain": "nmu.edu.eg",
+    "website": "https://nmu.edu.eg",
+    "description": "جامعة ذكية على ساحل البحر المتوسط توفر برامج بينية متقدمة في مجالات هندسة الحاسب والمعلوماتية والعلوم الطبية."
+  },
+  {
+    "id": "eui",
+    "name": "جامعة مصر للمعلوماتية",
+    "english_name": "Egypt University of Informatics",
+    "type": "National",
+    "category": "أهلية متخصصة",
+    "governorate": "Cairo",
+    "city": "New Administrative Capital",
+    "campus_location": "مدينة المعرفة، العاصمة الإدارية الجديدة",
+    "coordinates": {
+      "lat": 30.0131,
+      "lng": 31.7058
+    },
+    "established_year": 2021,
+    "email_domain": "eui.edu.eg",
+    "website": "https://eui.edu.eg",
+    "description": "أول جامعة متخصصة في تكنولوجيا الاتصالات والمعلومات في إفريقيا والشرق الأوسط، أسستها وزارة الاتصالات داخل مدينة المعرفة بالعاصمة الإدارية."
+  },
+  {
+    "id": "giu",
+    "name": "الجامعة الألمانية الدولية",
+    "english_name": "German International University",
+    "type": "Private",
+    "category": "خاصة / دولية",
+    "governorate": "Cairo",
+    "city": "New Administrative Capital",
+    "campus_location": "العاصمة الإدارية الجديدة",
+    "coordinates": {
+      "lat": 30.0058,
+      "lng": 31.6912
+    },
+    "established_year": 2019,
+    "email_domain": "giu-uni.de",
+    "website": "https://giu-uni.de",
+    "description": "تركز على العلوم التطبيقية والألمانية في العاصمة الإدارية الجديدة وتمنح شهادات مطابقة للمعايير الصناعية والأكاديمية الألمانية."
+  },
+  {
+    "id": "pharos-university",
+    "name": "جامعة فاروس بالإسكندرية",
+    "english_name": "Pharos University in Alexandria",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Alexandria",
+    "city": "Alexandria",
+    "campus_location": "سموحة، الإسكندرية",
+    "coordinates": {
+      "lat": 31.2052,
+      "lng": 29.9573
+    },
+    "established_year": 2006,
+    "email_domain": "pua.edu.eg",
+    "website": "https://www.pua.edu.eg",
+    "description": "أول جامعة خاصة يتم إنشاؤها في مدينة الإسكندرية، تضم كليات طبية، هندسية، ولغات، وإدارة أعمال."
+  },
+  {
+    "id": "delta-university",
+    "name": "جامعة الدلتا للعلوم والتكنولوجيا",
+    "english_name": "Delta University for Science and Technology",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Dakahlia",
+    "city": "Gamasa",
+    "campus_location": "جمصة، الطريق الدولي الساحلي",
+    "coordinates": {
+      "lat": 31.4428,
+      "lng": 31.4983
+    },
+    "established_year": 2007,
+    "email_domain": "deltauniv.edu.eg",
+    "website": "https://deltauniv.edu.eg",
+    "description": "أكبر الجامعات الخاصة في منطقة الدلتا وتتميز بكلياتها الطبية كالعلاج الطبيعي وطب الأسنان والصيدلة والهندسة."
+  },
+  {
+    "id": "nahda-university",
+    "name": "جامعة النهضة",
+    "english_name": "Nahda University in Beni Suef",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Beni Suef",
+    "city": "Beni Suef",
+    "campus_location": "بني سويف الجديدة، شرق النيل",
+    "coordinates": {
+      "lat": 29.0435,
+      "lng": 31.1341
+    },
+    "established_year": 2006,
+    "email_domain": "nub.edu.eg",
+    "website": "https://nub.edu.eg",
+    "description": "أول وأكبر جامعة خاصة في صعيد مصر، تخدم آلاف الطلاب من مختلف محافظات الصعيد بالقطاعات الطبية والهندسية."
+  },
+  {
+    "id": "sinai-university",
+    "name": "جامعة سيناء",
+    "english_name": "Sinai University",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "North Sinai",
+    "city": "Arish / Qantara",
+    "campus_location": "فرع العريش / فرع القنطرة شرق",
+    "coordinates": {
+      "lat": 31.1275,
+      "lng": 33.7842
+    },
+    "established_year": 2006,
+    "email_domain": "su.edu.eg",
+    "website": "https://www.su.edu.eg",
+    "description": "تأسست لدعم التنمية في شبه جزيرة سيناء ومدن القناة عبر فرعيها في العريش والقنطرة، وتشمل كليات طب الأسنان والصيدلة وتكنولوجيا المعلومات."
+  },
+  {
+    "id": "deraya-university",
+    "name": "جامعة دراية",
+    "english_name": "Deraya University",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Minya",
+    "city": "New Minya",
+    "campus_location": "مدينة المنيا الجديدة",
+    "coordinates": {
+      "lat": 28.1064,
+      "lng": 30.7968
+    },
+    "established_year": 2010,
+    "email_domain": "deraya.edu.eg",
+    "website": "https://www.deraya.edu.eg",
+    "description": "جامعة خاصة تقع في المنيا الجديدة وتهتم بالمجالات الطبية والصحية وطب الأسنان والعلاج الطبيعي وإدارة الأعمال."
+  },
+  {
+    "id": "horus-university",
+    "name": "جامعة حورس",
+    "english_name": "Horus University in Egypt",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Damietta",
+    "city": "New Damietta",
+    "campus_location": "مدينة دمياط الجديدة",
+    "coordinates": {
+      "lat": 31.4289,
+      "lng": 31.6421
+    },
+    "established_year": 2015,
+    "email_domain": "hue.edu.eg",
+    "website": "https://www.hue.edu.eg",
+    "description": "تقع على ساحل دمياط الجديدة وتضم كليات الطب البشري، طب الأسنان، الصيدلة، العلاج الطبيعي، والهندسة."
+  },
+  {
+    "id": "eue",
+    "name": "الجامعات الأوروبية في مصر",
+    "english_name": "European Universities in Egypt",
+    "type": "International Branch Campus",
+    "category": "فروع جامعات دولية",
+    "governorate": "Cairo",
+    "city": "New Administrative Capital",
+    "campus_location": "العاصمة الإدارية الجديدة",
+    "coordinates": {
+      "lat": 30.0152,
+      "lng": 31.6854
+    },
+    "established_year": 2021,
+    "email_domain": "eue.edu.eg",
+    "website": "https://eue.edu.eg",
+    "description": "تستضيف فروعاً معتمدة لجامعات بريطانية مثل جامعة لندن (تحت إشراف LSE) وجامعة سنترال لانكشاير لمنح درجات البكالوريوس الدولية."
+  },
+  {
+    "id": "eelu",
+    "name": "الجامعة المصرية للتعلم الإلكتروني الأهلية",
+    "english_name": "Egyptian E-Learning University",
+    "type": "National",
+    "category": "أهلية هجينة",
+    "governorate": "Giza",
+    "city": "Dokki",
+    "campus_location": "الدقي، الجيزة (مع مراكز بالمحافظات)",
+    "coordinates": {
+      "lat": 30.0381,
+      "lng": 31.2111
+    },
+    "established_year": 2008,
+    "email_domain": "eelu.edu.eg",
+    "website": "https://www.eelu.edu.eg",
+    "description": "أول جامعة مصرية تقدم تعليماً هجيناً يجمع بين التعلم عن بُعد والحضور بمراكز دراسية داخل مختلف الجامعات الحكومية."
+  },
+  {
+    "id": "new-helwan-uni",
+    "name": "جامعة حلوان الأهلية",
+    "english_name": "New Helwan University",
+    "type": "National",
+    "category": "أهلية",
+    "governorate": "Cairo",
+    "city": "Helwan",
+    "campus_location": "حلوان",
+    "coordinates": {
+      "lat": 29.8513,
+      "lng": 31.3363
+    },
+    "established_year": 2022,
+    "email_domain": "nhu.edu.eg",
+    "website": "https://www.nhu.edu.eg",
+    "description": "جامعة أهلية حديثة تابعة لجامعة حلوان الحكومية، وتضم كليات مثل الصيدلة، العلاج الطبيعي، العلاج الوظيفي، والذكاء الاصطناعي."
+  },
+  {
+    "id": "ain-shams-uni",
+    "name": "جامعة عين شمس الأهلية",
+    "english_name": "Ain Shams University National",
+    "type": "National",
+    "category": "أهلية",
+    "governorate": "Cairo",
+    "city": "Cairo",
+    "campus_location": "القاهرة الجديدة (الرحاب)",
+    "coordinates": {
+      "lat": 30.0528,
+      "lng": 31.5311
+    },
+    "established_year": 2022,
+    "email_domain": "aun.edu.eg",
+    "website": "https://www.aun.edu.eg",
+    "description": "تضم برامج أكاديمية متنوعة في مجالات تكنولوجيا المعلومات، العلاج الطبيعي، الصيدلة، وطب الأسنان، وتعتمد على معامل جامعة عين شمس الحكومية."
+  },
+  {
+    "id": "cairo-uni-national",
+    "name": "جامعة القاهرة الأهلية",
+    "english_name": "Cairo University National",
+    "type": "National",
+    "category": "أهلية",
+    "governorate": "Cairo",
+    "city": "Cairo",
+    "campus_location": "الشيخ زايد",
+    "coordinates": {
+      "lat": 29.9639,
+      "lng": 30.58
+    },
+    "established_year": 2022,
+    "email_domain": "cun.edu.eg",
+    "website": "https://www.cun.edu.eg",
+    "description": "أهلية تابعة لجامعة القاهرة، تقع في مدينة الشيخ زايد، وتوفر برامج حديثة مثل علوم البيانات، إدارة الأعمال، والسياحة."
+  },
+  {
+    "id": "alex-uni-national",
+    "name": "جامعة الإسكندرية الأهلية",
+    "english_name": "Alexandria University National",
+    "type": "National",
+    "category": "أهلية",
+    "governorate": "Alexandria",
+    "city": "Alexandria",
+    "campus_location": "الفرع الجديد بسموحة الجديدة",
+    "coordinates": {
+      "lat": 31.1685,
+      "lng": 29.9832
+    },
+    "established_year": 2022,
+    "email_domain": "au.edu.eg",
+    "website": "https://www.au.edu.eg",
+    "description": "تقدم برامج أكاديمية باللغة الإنجليزية في الهندسة، إدارة الأعمال، العلاج الطبيعي، والذكاء الاصطناعي."
+  },
+  {
+    "id": "uni-of-science-tech-heliopolis",
+    "name": "جامعة هليوبوليس للعلوم والتكنولوجيا",
+    "english_name": "Heliopolis University for Science and Technology",
+    "type": "Private",
+    "category": "خاصة",
+    "governorate": "Cairo",
+    "city": "Heliopolis",
+    "campus_location": "هليوبوليس الجديدة",
+    "coordinates": {
+      "lat": 30.0822,
+      "lng": 31.6005
+    },
+    "established_year": 2006,
+    "email_domain": "hu.edu.eg",
+    "website": "https://hu.edu.eg",
+    "description": "تُعرف بتركيزها على الزراعة المستدامة، الهندسة، والعلاج الطبيعي، وتعتمد على نموذج تعليمي يجمع بين النظرية والممارسة."
+  }
+]

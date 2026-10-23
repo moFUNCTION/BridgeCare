@@ -1,0 +1,45 @@
+{
+  "name": "Main",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "dotenv -e ../../.env -- vite",
+    "build": "dotenv -e ../../.env -- tsc -b && vite build",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.32.0",
+    "@emotion/react": "^11.14.0",
+    "@hookform/resolvers": "^3.10.0",
+    "@lottiefiles/dotlottie-react": "^0.17.14",
+    "@repo/assets": "*",
+    "@repo/data-shared": "*",
+    "@repo/hooks-shared": "*",
+    "@repo/react-appwrite": "*",
+    "@repo/ui-components": "*",
+    "@repo/utils-shared": "*",
+    "appwrite": "^17.0.2",
+    "framer-motion": "^12.33.0",
+    "i18next": "^25.8.4",
+    "next-themes": "^0.4.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.71.1",
+    "react-i18next": "^16.5.4",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.13.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "18.2.55",
+    "@types/react-dom": "18.2.19",
+    "@vitejs/plugin-react": "^4.3.0",
+    "eslint": "^8.57.0",
+    "typescript": "5.5.4",
+    "vite": "^5.4.0",
+    "vite-tsconfig-paths": "^5.0.1"
+  }
+}

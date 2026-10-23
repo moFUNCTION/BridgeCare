@@ -1,0 +1,281 @@
+import type { AspectRatioId, BackgroundPatternPreset, CanvasSize } from "./types";
+
+export const BACKGROUND_ASPECT_RATIOS: Record<AspectRatioId, CanvasSize> = {
+  "1:1": { w: 900, h: 900 },
+  "2:1": { w: 900, h: 450 },
+  "1:2": { w: 450, h: 900 },
+  "3:4": { w: 900, h: 1200 },
+  "4:3": { w: 1200, h: 900 },
+  "9:16": { w: 506, h: 900 },
+  "16:9": { w: 900, h: 506 },
+  "4:5": { w: 720, h: 900 },
+  "5:4": { w: 900, h: 720 },
+};
+
+export const BACKGROUND_PATTERN_PRESETS: BackgroundPatternPreset[] = [
+  {
+    id: "side-wave",
+    label: "Side wave",
+    thumbnail: "side_wave",
+    defaultValues: {
+      layers: 10,
+      peaks: 2,
+      colors: ["#DF6589", "#3C1053"],
+      type: "fill",
+      stroke: 10,
+      gap: 10,
+      angle: 45,
+    },
+  },
+  {
+    id: "wave",
+    label: "Wave",
+    thumbnail: "wave",
+    defaultValues: {
+      layers: 10,
+      peaks: 2,
+      colors: ["#1BA4FF", "#2C1778"],
+      type: "fill",
+      layout: "parallel",
+      stroke: 10,
+      angle: 0,
+    },
+  },
+  {
+    id: "peak",
+    label: "Peaks",
+    thumbnail: "peak",
+    defaultValues: {
+      layers: 10,
+      peaks: 5,
+      colors: ["#F95164", "#051D4C"],
+      type: "fill",
+      stroke: 10,
+    },
+  },
+  {
+    id: "blurry",
+    label: "Meshy",
+    thumbnail: "blurry",
+    defaultValues: {
+      colors: ["#cdb4db", "#ffc8dd", "#ffafcc", "#bde0fe", "#a2d2ff"],
+      blur: 100,
+      type: "random",
+      number: 5,
+      direction: "tl",
+    },
+  },
+  {
+    id: "split",
+    label: "Split",
+    thumbnail: "split",
+    defaultValues: {
+      colors: ["#4651E5"],
+      shape: "circle",
+      type: "fill",
+      angle: 45,
+      stroke: 10,
+      x: 100,
+      y: 0,
+    },
+  },
+  {
+    id: "material",
+    label: "Material",
+    thumbnail: "material",
+    defaultValues: {
+      colors: ["#47026C", "#C86BFA", "#E4AFFF", "#F5CF05", "#FBE300"],
+      layout: "center",
+    },
+  },
+  {
+    id: "code",
+    label: "Code",
+    thumbnail: "code",
+    defaultValues: {
+      colors: ["#47026C", "#C86BFA", "#E4AFFF", "#F5CF05", "#FBE300"],
+      layers: 25,
+      opacity: 100,
+    },
+  },
+  {
+    id: "rain",
+    label: "Rain",
+    thumbnail: "rain",
+    defaultValues: {
+      colors: ["#3D348B", "#7678ED", "#F7B801", "#F18701", "#F35B04"],
+      layers: 25,
+      direction: "right",
+      opacity: 80,
+    },
+  },
+  {
+    id: "blob",
+    label: "Corner blob",
+    thumbnail: "blob",
+    defaultValues: {
+      colors: ["#4f46e5"],
+      layers: 1,
+      side: "0",
+      stroke: 10,
+      type: "fill",
+    },
+  },
+  {
+    id: "step",
+    label: "Buildings",
+    thumbnail: "step",
+    defaultValues: {
+      colors: ["#8FFF93", "#192270"],
+      gap: 0,
+      layers: 15,
+      steps: 20,
+    },
+  },
+  {
+    id: "scattered",
+    label: "Scattered",
+    thumbnail: "circle",
+    defaultValues: {
+      colors: ["#5a189a", "#7b2cbf", "#9d4edd", "#c77dff"],
+      number: 50,
+      type: "fill",
+      stroke: 10,
+      opacity: 50,
+      shape: "circle",
+    },
+  },
+  {
+    id: "scribbles",
+    label: "Scribbles",
+    thumbnail: "scribbles",
+    defaultValues: {
+      colors: ["#271C5D", "#A763FF", "#D153E4"],
+      number: 50,
+      stroke: 10,
+      opacity: 80,
+    },
+  },
+  {
+    id: "block",
+    label: "Tile wall",
+    thumbnail: "tile",
+    defaultValues: {
+      colors: ["#6155A6", "#A685E2", "#FFABE1", "#FFE6E6"],
+      zoom: 95,
+      density: 25,
+      roundness: 0,
+    },
+  },
+  {
+    id: "frame",
+    label: "Frames",
+    thumbnail: "frame",
+    defaultValues: {
+      colors: ["#241E92", "#5432D3", "#7B6CF6", "#E5A5FF"],
+      zoom: 50,
+      density: 50,
+    },
+  },
+  {
+    id: "concentric",
+    label: "Concentric",
+    thumbnail: "conc",
+    defaultValues: {
+      shape: "blob",
+      colors: ["#1A2754", "#5061FD"],
+      layers: 10,
+      x: 0,
+      y: 0,
+      angle: 0,
+      type: "fill",
+      gap: 10,
+      stroke: 10,
+    },
+  },
+  {
+    id: "line",
+    label: "Line",
+    thumbnail: "line",
+    defaultValues: {
+      colors: ["#62B6CB", "#1B4965", "#CAE9FF", "#5FA8D3"],
+      layers: 25,
+      stroke: 25,
+      layout: "horizontal",
+      opacity: 80,
+    },
+  },
+  {
+    id: "stripe",
+    label: "Stripe",
+    thumbnail: "stripe",
+    defaultValues: {
+      type: "block",
+      colors: ["#0d0c1d", "#161b33", "#474973", "#a69cac"],
+      layers: 60,
+    },
+  },
+  {
+    id: "stacks",
+    label: "Stacks",
+    thumbnail: "stacks",
+    defaultValues: {
+      colors: ["#22223b", "#4a4e69", "#9a8c98", "#c9ada7"],
+      layers: 10,
+      col: 10,
+      roundness: 60,
+    },
+  },
+  {
+    id: "mirror",
+    label: "Mirror",
+    thumbnail: "mirror",
+    defaultValues: {
+      colors: ["#FFB5A7"],
+      number: 20,
+      stroke: 2,
+      opacity: 80,
+      shape: "circle",
+      gap: 10,
+    },
+  },
+  {
+    id: "sheet",
+    label: "Sheet",
+    thumbnail: "sheet",
+    defaultValues: {
+      colors: ["#6366f1"],
+      direction: "vertical",
+      topCurve: 150,
+      bottomCurve: 250,
+      density: 60,
+    },
+  },
+  {
+    id: "confetti",
+    label: "Confetti",
+    thumbnail: "confetti",
+    defaultValues: {
+      colors: ["#6366f1", "#ec4899", "#f59e0b", "#10b981", "#3b82f6", "#f43f5e"],
+      number: 120,
+      minSize: 6,
+      maxSize: 24,
+      shape: "mixed",
+      opacity: 90,
+    },
+  },
+  {
+    id: "low-poly",
+    label: "Low-poly",
+    thumbnail: "poly",
+    defaultValues: {
+      colors: ["#6366f1", "#ec4899", "#f59e0b"],
+      cellSize: 80,
+      chaos: 60,
+    },
+  },
+];
+
+export function getPreset(id: string): BackgroundPatternPreset | undefined {
+  return BACKGROUND_PATTERN_PRESETS.find((p) => p.id === id);
+}

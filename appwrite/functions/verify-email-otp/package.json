@@ -1,0 +1,10 @@
+{
+  "name": "verify-email-otp",
+  "version": "1.0.0",
+  "description": "Verifies 6-digit OTP and marks user email as verified",
+  "main": "src/main.js",
+  "type": "module",
+  "dependencies": {
+    "node-appwrite": "^14.1.0"
+  }
+}
