@@ -208,6 +208,8 @@ export const Login: React.FC = () => {
           type="submit"
           loading={isPending}
           size="lg"
+          px="6"
+          py="3.5"
           borderRadius="xl"
           bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
           color="white"
@@ -219,8 +221,8 @@ export const Login: React.FC = () => {
           fontWeight="bold"
         >
           <HStack gap="2">
-            <LuLogIn />
-            <Text>
+            <LuLogIn size={18} />
+            <Text fontSize="md">
               {isPending ? t("auth.login.submitting") : t("auth.login.submit")}
             </Text>
           </HStack>

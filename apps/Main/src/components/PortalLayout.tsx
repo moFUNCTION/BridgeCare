@@ -264,12 +264,16 @@ export const PortalLayout: React.FC = () => {
         {/* Urgent Crisis Help Button */}
         <Box px="4" py="2">
           <Button
-            size="xs"
+            size="sm"
             w="100%"
             variant="outline"
             borderColor="red.500/40"
             color="red.600"
             borderRadius="xl"
+            px="3.5"
+            py="2"
+            fontSize="xs"
+            fontWeight="semibold"
             _hover={{ bg: "red.500/10" }}
             onClick={() => setCrisisModalOpen(true)}
           >
@@ -319,6 +323,10 @@ export const PortalLayout: React.FC = () => {
                     colorPalette="orange"
                     variant="subtle"
                     borderRadius="full"
+                    px="2"
+                    py="0.5"
+                    fontSize="2xs"
+                    fontWeight="semibold"
                   >
                     {t("portalLayout.rolePatient")}
                   </Badge>
@@ -328,6 +336,10 @@ export const PortalLayout: React.FC = () => {
                       colorPalette="green"
                       variant="subtle"
                       borderRadius="full"
+                      px="2"
+                      py="0.5"
+                      fontSize="2xs"
+                      fontWeight="semibold"
                     >
                       {t("portalLayout.statusVerified")}
                     </Badge>
@@ -339,9 +351,12 @@ export const PortalLayout: React.FC = () => {
             <Button
               variant="ghost"
               size="sm"
+              w="8"
+              h="8"
+              p="0"
+              borderRadius="lg"
               colorPalette="red"
               onClick={handleSignOut}
-              p="2"
               title={t("dashboard.logout")}
             >
               <LuLogOut size={16} />
@@ -394,12 +409,15 @@ export const PortalLayout: React.FC = () => {
               borderColor="red.500/40"
               color="red.600"
               borderRadius="full"
-              px="2"
+              px="2.5"
+              py="1"
+              fontSize="2xs"
+              fontWeight="bold"
               onClick={() => setCrisisModalOpen(true)}
             >
               <HStack gap="1">
                 <LuShieldAlert size={12} />
-                <Text fontSize="2xs" fontWeight="bold">
+                <Text>
                   {t("crisis.crisisPill")}
                 </Text>
               </HStack>

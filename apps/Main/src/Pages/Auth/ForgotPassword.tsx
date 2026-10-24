@@ -274,6 +274,8 @@ export const ForgotPassword: React.FC = () => {
                   type="submit"
                   loading={isLoading}
                   size="lg"
+                  px="6"
+                  py="3.5"
                   borderRadius="xl"
                   bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
                   color="white"
@@ -285,8 +287,8 @@ export const ForgotPassword: React.FC = () => {
                   }}
                 >
                   <HStack gap="2">
-                    <LuKeyRound />
-                    <Text>
+                    <LuKeyRound size={18} />
+                    <Text fontSize="md">
                       {isLoading
                         ? t("auth.forgotPassword.updating")
                         : t("auth.forgotPassword.updateSubmit")}
@@ -324,14 +326,22 @@ export const ForgotPassword: React.FC = () => {
               <Button
                 variant="outline"
                 size="md"
+                px="4"
+                py="2"
                 borderRadius="xl"
+                fontSize="sm"
+                fontWeight="semibold"
                 onClick={() => setEmailSentTo(null)}
               >
                 {t("auth.forgotPassword.resend")}
               </Button>
               <Button
                 size="md"
+                px="5"
+                py="2"
                 borderRadius="xl"
+                fontSize="sm"
+                fontWeight="semibold"
                 bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
                 color="white"
                 _hover={{
@@ -386,6 +396,8 @@ export const ForgotPassword: React.FC = () => {
                 type="submit"
                 loading={isLoading}
                 size="lg"
+                px="6"
+                py="3.5"
                 borderRadius="xl"
                 bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
                 color="white"
@@ -397,8 +409,8 @@ export const ForgotPassword: React.FC = () => {
                 }}
               >
                 <HStack gap="2">
-                  <LuMail />
-                  <Text>
+                  <LuMail size={18} />
+                  <Text fontSize="md">
                     {isLoading
                       ? t("auth.forgotPassword.submitting")
                       : t("auth.forgotPassword.submit")}

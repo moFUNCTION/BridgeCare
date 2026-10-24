@@ -84,6 +84,10 @@ export const Dashboard: React.FC = () => {
             variant="subtle"
             size="sm"
             borderRadius="full"
+            px="2.5"
+            py="1"
+            fontSize="xs"
+            fontWeight="semibold"
           >
             {isVerified ? t("dashboard.verified") : t("dashboard.unverified")}
           </Badge>
@@ -123,6 +127,10 @@ export const Dashboard: React.FC = () => {
                 </Box>
                 <Button
                   size="sm"
+                  px="3.5"
+                  py="2"
+                  fontSize="xs"
+                  fontWeight="semibold"
                   bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
                   color="white"
                   borderRadius="xl"
@@ -177,9 +185,12 @@ export const Dashboard: React.FC = () => {
                   <Badge
                     colorPalette={isVerified ? "green" : "orange"}
                     variant="subtle"
-                    size="lg"
+                    size="md"
                     borderRadius="full"
                     px="3"
+                    py="1"
+                    fontSize="xs"
+                    fontWeight="bold"
                   >
                     <HStack gap="1">
                       {isVerified ? (
@@ -276,11 +287,16 @@ export const Dashboard: React.FC = () => {
                       </Text>
                     </HStack>
                   </Flex>
-                  <Flex justify="space-between" py="2">
+                  <Flex justify="space-between" align="center" py="2">
                     <Text color="fg.muted">{t("dashboard.status")}</Text>
                     <Badge
                       colorPalette={isVerified ? "green" : "orange"}
                       size="sm"
+                      px="2.5"
+                      py="0.5"
+                      borderRadius="full"
+                      fontSize="xs"
+                      fontWeight="semibold"
                     >
                       {isVerified
                         ? t("dashboard.verified")

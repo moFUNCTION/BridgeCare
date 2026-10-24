@@ -20,6 +20,7 @@
     "@repo/react-appwrite": "*",
     "@repo/ui-components": "*",
     "@repo/utils-shared": "*",
+    "@zegocloud/zego-uikit-prebuilt": "^2.18.5",
     "appwrite": "^17.0.2",
     "framer-motion": "^12.33.0",
     "i18next": "^25.8.4",

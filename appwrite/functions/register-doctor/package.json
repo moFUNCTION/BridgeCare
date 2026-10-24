@@ -1,0 +1,10 @@
+{
+  "name": "register-doctor",
+  "version": "1.0.0",
+  "description": "Registers licensed psychiatrist or therapist, verifies license credentials, and creates THERAPISTS record",
+  "main": "src/main.js",
+  "type": "module",
+  "dependencies": {
+    "node-appwrite": "^14.1.0"
+  }
+}

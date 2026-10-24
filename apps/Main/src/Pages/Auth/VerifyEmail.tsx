@@ -199,6 +199,8 @@ export const VerifyEmail: React.FC = () => {
           loading={isVerifying}
           disabled={otpValue.length < 6}
           size="lg"
+          px="6"
+          py="3.5"
           borderRadius="xl"
           bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
           color="white"
@@ -211,8 +213,8 @@ export const VerifyEmail: React.FC = () => {
           }}
         >
           <HStack gap="2">
-            <LuMailCheck />
-            <Text>
+            <LuMailCheck size={18} />
+            <Text fontSize="md">
               {isVerifying
                 ? t("auth.verifyEmail.submitting")
                 : t("auth.verifyEmail.submit")}
@@ -231,11 +233,13 @@ export const VerifyEmail: React.FC = () => {
             <Button
               variant="plain"
               size="sm"
+              px="1.5"
+              py="1"
+              fontSize="sm"
               loading={isResending}
               onClick={handleResend}
               color="orange.600"
               fontWeight="bold"
-              p="0"
             >
               <HStack gap="1">
                 <LuRefreshCw size={14} />
@@ -249,12 +253,16 @@ export const VerifyEmail: React.FC = () => {
         <Button
           variant="ghost"
           size="sm"
+          px="3"
+          py="1.5"
+          borderRadius="xl"
           color="fg.muted"
           onClick={() => {
             setVerificationSkipped(true);
             navigate("/");
           }}
           fontSize="xs"
+          fontWeight="medium"
         >
           {t("auth.verifyEmail.skip")}
         </Button>

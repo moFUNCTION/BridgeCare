@@ -1,0 +1,10 @@
+{
+  "name": "groq-community-moderator",
+  "version": "1.0.0",
+  "description": "BridgeCare real-time Groq AI Safety Shield for anonymous peer community",
+  "main": "src/main.js",
+  "type": "module",
+  "dependencies": {
+    "node-appwrite": "^14.1.0"
+  }
+}

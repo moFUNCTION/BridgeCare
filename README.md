@@ -25,6 +25,35 @@ BridgeCare transforms this experience by offering:
 
 ---
 
+## 📚 Complete Engineering & Architecture Plans
+
+Full production blueprints and implementation plans are located in the [`docs/`](./docs) folder:
+
+| Blueprint Document | Scope & Coverage |
+| :--- | :--- |
+| **[00. Master Architecture & Roadmap](./docs/00_MASTER_ARCHITECTURE_AND_ROADMAP.md)** | Core pillars, 8 modules, dual-vault security model, tech stack, and roadmap |
+| **[01. Appwrite Backend & Security Plan](./docs/01_APPWRITE_BACKEND_AND_SECURITY_PLAN.md)** | Database collections, document security permissions, Appwrite Cloud Functions |
+| **[02. Pillar 1: AI Companion & Transcripts](./docs/02_PILLAR_1_AI_COMPANION_AND_TRANSCRIPTS_PLAN.md)** | Groq integration (`llama-3.3-70b-versatile`), 4 venting modes, auto-transcripts, crisis alerts |
+| **[03. Pillar 2: Gamified Screening Hub](./docs/03_PILLAR_2_GAMIFIED_SCREENING_HUB_PLAN.md)** | ADHD, Bipolar, OCD cognitive games, telemetry capture, $X/10$ scoring, disclaimers |
+| **[04. Pillar 3: Therapists & ZEGOCLOUD Telehealth](./docs/04_PILLAR_3_THERAPISTS_ZEGOCLOUD_AND_CLINICAL_FILE_PLAN.md)** | Pre-Session Clinical Brief compiler, ZEGOCLOUD HD video meetings, booking flow |
+| **[05. Pillar 4: Anonymous Peer Community](./docs/05_PILLAR_4_ANONYMOUS_COMMUNITY_AND_GROQ_MODERATION_PLAN.md)** | Pseudonymity, condition spaces, empathetic reactions, real-time Groq moderation |
+| **[06. Privacy Vault & Cryptographic Governance](./docs/06_PRIVACY_VAULT_AND_IDENTITY_SEPARATION_PLAN.md)** | Vault A vs. Vault B isolation, scoped doctor access, 1-click revocation & data purge |
+
+### 🤖 5-Agent Parallel Execution Blueprints (Zero-Conflict Workflows)
+
+Designed for concurrent multi-agent development with strict file-ownership boundaries:
+
+| Agent Execution Plan | Exclusive Subsystem & Write Boundaries |
+| :--- | :--- |
+| **[Master Coordination Guide](./docs/PARALLEL_AGENTS_COORDINATION_GUIDE.md)** | Multi-agent operational rules, boundary isolation, and shared data contracts |
+| **[Agent 1: Backend & Security Lead](./docs/AGENT_1_BACKEND_APPWRITE_FUNCTIONS.md)** | Appwrite `main` database collections, permissions, and 5 Node.js cloud functions |
+| **[Agent 2: Pillar 1 & Groq AI Companion](./docs/AGENT_2_PILLAR1_AI_COMPANION_GROQ.md)** | `AiChat.tsx`, `AiReports.tsx`, `groqService.ts`, crisis detection protocol |
+| **[Agent 3: Pillar 2 & Gamified Screening](./docs/AGENT_3_PILLAR2_GAMIFIED_SCREENING.md)** | `MentalDetectorGames.tsx`, `OnlineEra.tsx`, `gameService.ts`, cognitive mini-games |
+| **[Agent 4: Pillar 3 & ZEGOCLOUD Video](./docs/AGENT_4_PILLAR3_THERAPISTS_ZEGOCLOUD.md)** | `TherapistsDirectory.tsx`, `LatestSessions.tsx`, `Billing.tsx`, `zegocloudService.ts` |
+| **[Agent 5: Pillar 4 & Privacy Vault](./docs/AGENT_5_PILLAR4_COMMUNITY_AND_PRIVACY.md)** | `CommunityPosts.tsx`, `CommunityViral.tsx`, `PasswordSecurity.tsx`, `UserProfile.tsx` |
+
+---
+
 ## 🚀 The 4 Core Pillars
 
 ```

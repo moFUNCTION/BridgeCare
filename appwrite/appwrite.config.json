@@ -121,6 +121,109 @@
                 "documents.read",
                 "documents.write"
             ]
+        },
+        {
+            "$id": "register-doctor",
+            "name": "Register Doctor",
+            "runtime": "node-18.0",
+            "path": "functions/register-doctor",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users",
+                "any"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "commands": "npm install",
+            "scopes": [
+                "users.read",
+                "users.write",
+                "teams.read",
+                "teams.write",
+                "documents.read",
+                "documents.write"
+            ]
+        },
+        {
+            "$id": "groq-chat-companion",
+            "name": "Groq AI Chat Companion",
+            "runtime": "node-18.0",
+            "path": "functions/groq-chat-companion",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users",
+                "any"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 30,
+            "commands": "npm install",
+            "scopes": [
+                "documents.read",
+                "documents.write"
+            ]
+        },
+        {
+            "$id": "zegocloud-token-generator",
+            "name": "ZEGOCLOUD Room Token Generator",
+            "runtime": "node-18.0",
+            "path": "functions/zegocloud-token-generator",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "commands": "npm install",
+            "scopes": []
+        },
+        {
+            "$id": "groq-community-moderator",
+            "name": "Groq Community Moderation Shield",
+            "runtime": "node-18.0",
+            "path": "functions/groq-community-moderator",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users",
+                "any"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "commands": "npm install",
+            "scopes": [
+                "documents.read"
+            ]
+        },
+        {
+            "$id": "groq-clinical-brief-compiler",
+            "name": "Groq Pre-Session Clinical Brief Compiler",
+            "runtime": "node-18.0",
+            "path": "functions/groq-clinical-brief-compiler",
+            "entrypoint": "src/main.js",
+            "execute": [
+                "users"
+            ],
+            "enabled": true,
+            "logging": true,
+            "events": [],
+            "schedule": "",
+            "timeout": 45,
+            "commands": "npm install",
+            "scopes": [
+                "documents.read",
+                "documents.write"
+            ]
         }
     ],
     "tables": [
@@ -188,6 +291,626 @@
                     "array": false,
                     "size": 64,
                     "default": "patient"
+                },
+                {
+                    "key": "anonymousAlias",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 64,
+                    "default": "CalmRiver92"
+                },
+                {
+                    "key": "avatarId",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 64,
+                    "default": "avatar-teal-1"
+                }
+            ]
+        },
+        {
+            "$id": "TRANSCRIPTS",
+            "name": "TRANSCRIPTS",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "transcriptId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "userId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "date",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 10
+                },
+                {
+                    "key": "rawChatLog",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 100000
+                },
+                {
+                    "key": "summaryText",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 5000
+                },
+                {
+                    "key": "moodTrajectory",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 256
+                },
+                {
+                    "key": "triggers",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": true,
+                    "size": 128
+                },
+                {
+                    "key": "symptoms",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": true,
+                    "size": 128
+                },
+                {
+                    "key": "isCrisisDetected",
+                    "type": "boolean",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": false
+                },
+                {
+                    "key": "includeInClinicalFile",
+                    "type": "boolean",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": true
+                }
+            ]
+        },
+        {
+            "$id": "SCREENING_SCORES",
+            "name": "SCREENING_SCORES",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "scoreId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "userId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "gameType",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 32
+                },
+                {
+                    "key": "scoreNumerator",
+                    "type": "integer",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "min": 1,
+                    "max": 10
+                },
+                {
+                    "key": "scoreDenominator",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 10
+                },
+                {
+                    "key": "telemetryMetrics",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 10000
+                },
+                {
+                    "key": "interpretationKey",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128
+                },
+                {
+                    "key": "completedAt",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 32
+                }
+            ]
+        },
+        {
+            "$id": "CLINICAL_FILES",
+            "name": "CLINICAL_FILES",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "fileId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "patientId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "therapistId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "executiveSummary",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 5000
+                },
+                {
+                    "key": "longitudinalTimelineJson",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 20000
+                },
+                {
+                    "key": "gameScorecardJson",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 10000
+                },
+                {
+                    "key": "patientGoals",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 2000
+                },
+                {
+                    "key": "status",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": "shared"
+                },
+                {
+                    "key": "createdAt",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 32
+                },
+                {
+                    "key": "revokedAt",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32
+                }
+            ]
+        },
+        {
+            "$id": "THERAPISTS",
+            "name": "THERAPISTS",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "therapistId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "fullName",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 128
+                },
+                {
+                    "key": "title",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "licenseNumber",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "specialties",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": true,
+                    "size": 64
+                },
+                {
+                    "key": "sessionFee",
+                    "type": "double",
+                    "status": "available",
+                    "required": true,
+                    "array": false
+                },
+                {
+                    "key": "currency",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 8,
+                    "default": "USD"
+                },
+                {
+                    "key": "rating",
+                    "type": "double",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 5.0
+                },
+                {
+                    "key": "reviewCount",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 0
+                },
+                {
+                    "key": "bio",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 2000
+                },
+                {
+                    "key": "avatarUrl",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 512
+                },
+                {
+                    "key": "acceptsBridgeCareBrief",
+                    "type": "boolean",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": true
+                }
+            ]
+        },
+        {
+            "$id": "SESSIONS",
+            "name": "SESSIONS",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "sessionId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "patientId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "therapistId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "sessionNumber",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 1
+                },
+                {
+                    "key": "scheduledAt",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 32
+                },
+                {
+                    "key": "durationMinutes",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 50
+                },
+                {
+                    "key": "status",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": "booked"
+                },
+                {
+                    "key": "zegoRoomId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "clinicalNotes",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 5000
+                },
+                {
+                    "key": "prescriptionsJson",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 5000
+                }
+            ]
+        },
+        {
+            "$id": "COMMUNITY_POSTS",
+            "name": "COMMUNITY_POSTS",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "postId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "authorId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "authorAlias",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "authorAvatar",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "conditionSpace",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "content",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 4000
+                },
+                {
+                    "key": "relateCount",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 0
+                },
+                {
+                    "key": "strengthCount",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 0
+                },
+                {
+                    "key": "helpfulCount",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": 0
+                },
+                {
+                    "key": "isModerated",
+                    "type": "boolean",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": true
+                },
+                {
+                    "key": "createdAt",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 32
+                }
+            ]
+        },
+        {
+            "$id": "COMMUNITY_COMMENTS",
+            "name": "COMMUNITY_COMMENTS",
+            "databaseId": "main",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "commentId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "postId",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 36
+                },
+                {
+                    "key": "authorAlias",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "authorAvatar",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 64
+                },
+                {
+                    "key": "content",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 2000
+                },
+                {
+                    "key": "createdAt",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 32
                 }
             ]
         }
@@ -196,6 +919,10 @@
         {
             "$id": "patients",
             "name": "Patients"
+        },
+        {
+            "$id": "therapists",
+            "name": "Therapists"
         }
     ]
 }

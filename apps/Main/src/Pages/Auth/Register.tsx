@@ -492,13 +492,15 @@ export const Register: React.FC = () => {
               type="button"
               variant="outline"
               size="lg"
+              px="6"
+              py="3.5"
               borderRadius="xl"
               onClick={handlePrev}
               flex="1"
             >
               <HStack gap="2">
-                {isRtl ? <LuArrowRight /> : <LuArrowLeft />}
-                <Text>{t("auth.register.prev")}</Text>
+                {isRtl ? <LuArrowRight size={18} /> : <LuArrowLeft size={18} />}
+                <Text fontSize="md" fontWeight="semibold">{t("auth.register.prev")}</Text>
               </HStack>
             </Button>
           )}
@@ -507,6 +509,8 @@ export const Register: React.FC = () => {
             <Button
               type="button"
               size="lg"
+              px="6"
+              py="3.5"
               borderRadius="xl"
               bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
               color="white"
@@ -519,8 +523,8 @@ export const Register: React.FC = () => {
               fontWeight="bold"
             >
               <HStack gap="2">
-                <Text>{t("auth.register.next")}</Text>
-                {isRtl ? <LuArrowLeft /> : <LuArrowRight />}
+                <Text fontSize="md">{t("auth.register.next")}</Text>
+                {isRtl ? <LuArrowLeft size={18} /> : <LuArrowRight size={18} />}
               </HStack>
             </Button>
           ) : (
@@ -528,6 +532,8 @@ export const Register: React.FC = () => {
               type="submit"
               loading={isSubmitting}
               size="lg"
+              px="6"
+              py="3.5"
               borderRadius="xl"
               bg="linear-gradient(135deg, #f97316 0%, #ea580c 100%)"
               color="white"
@@ -539,8 +545,8 @@ export const Register: React.FC = () => {
               fontWeight="bold"
             >
               <HStack gap="2">
-                <LuUserPlus />
-                <Text>
+                <LuUserPlus size={18} />
+                <Text fontSize="md">
                   {isSubmitting
                     ? t("auth.register.submitting")
                     : t("auth.register.submit")}
